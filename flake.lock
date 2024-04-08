@@ -1,0 +1,44 @@
+{
+  "nodes": {
+    "freecad-realthunder": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1711866621,
+        "narHash": "sha256-9JdBIOumt7fogJJcBzhcYNinLR5tDUYeWoDXMDt/ME0=",
+        "owner": "realthunder",
+        "repo": "FreeCAD",
+        "rev": "21933672e35d6f4646d6a80e5ffb432ee658b517",
+        "type": "github"
+      },
+      "original": {
+        "owner": "realthunder",
+        "ref": "LinkStable",
+        "repo": "FreeCAD",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1712163089,
+        "narHash": "sha256-Um+8kTIrC19vD4/lUCN9/cU9kcOsD1O1m+axJqQPyMM=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "fd281bd6b7d3e32ddfa399853946f782553163b5",
+        "type": "github"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "ref": "nixos-unstable",
+        "type": "indirect"
+      }
+    },
+    "root": {
+      "inputs": {
+        "freecad-realthunder": "freecad-realthunder",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
