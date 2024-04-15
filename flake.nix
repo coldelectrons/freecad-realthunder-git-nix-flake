@@ -16,7 +16,7 @@
   in rec {
     packages = forAllSystems (pkgs: {
       default = pkgs.libsForQt5.callPackage ./package.nix {
-        boost = python3Packages.boost;
+        boost = pkgs.python3Packages.boost;
         inherit (python3Packages)
           gitpython
           matplotlib
