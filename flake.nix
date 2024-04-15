@@ -17,7 +17,7 @@
     packages = forAllSystems (pkgs: {
       default = pkgs.libsForQt5.callPackage ./package.nix {
         boost = pkgs.python3Packages.boost;
-        inherit (python3Packages)
+        inherit (pkgs.python3Packages)
           gitpython
           matplotlib
           pivy

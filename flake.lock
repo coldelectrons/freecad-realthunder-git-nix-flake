@@ -3,11 +3,11 @@
     "freecad-realthunder": {
       "flake": false,
       "locked": {
-        "lastModified": 1711866621,
-        "narHash": "sha256-9JdBIOumt7fogJJcBzhcYNinLR5tDUYeWoDXMDt/ME0=",
+        "lastModified": 1712488274,
+        "narHash": "sha256-hlAkR4Ubvjr+MSyP1WewDLkQRFgEGBXkVeKAjI9lsE0=",
         "owner": "realthunder",
         "repo": "FreeCAD",
-        "rev": "21933672e35d6f4646d6a80e5ffb432ee658b517",
+        "rev": "973e4821bcd19a5a1af9ae3e1d2ed961aad0a8ab",
         "type": "github"
       },
       "original": {
@@ -19,16 +19,14 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1712163089,
-        "narHash": "sha256-Um+8kTIrC19vD4/lUCN9/cU9kcOsD1O1m+axJqQPyMM=",
-        "owner": "NixOS",
-        "repo": "nixpkgs",
-        "rev": "fd281bd6b7d3e32ddfa399853946f782553163b5",
-        "type": "github"
+        "lastModified": 1712963716,
+        "narHash": "sha256-WKm9CvgCldeIVvRz87iOMi8CFVB1apJlkUT4GGvA0iM=",
+        "path": "/nix/store/yy5l09gfsagkv8rswblknmsjc2gyr20d-source",
+        "rev": "cfd6b5fc90b15709b780a5a1619695a88505a176",
+        "type": "path"
       },
       "original": {
         "id": "nixpkgs",
-        "ref": "nixos-unstable",
         "type": "indirect"
       }
     },
