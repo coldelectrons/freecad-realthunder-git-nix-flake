@@ -18,7 +18,8 @@
       default = pkgs.libsForQt5.callPackage ./package.nix {
         boost = pkgs.python3Packages.boost;
         inherit (pkgs.python3Packages)
-          gitpython
+          pip # for the Addon Manager
+          gitpython # TODO Is this still needed?
           matplotlib
           pivy
           ply
