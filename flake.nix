@@ -18,6 +18,12 @@
       default = pkgs.libsForQt5.callPackage ./package.nix {
         boost = pkgs.python3Packages.boost;
         inherit (pkgs.python3Packages)
+          # TODO Module-ize this flake, and module-ize the addons
+          # these three are because of the Nodes addon
+          awkward
+          blinker
+          qtpy
+          #
           gitpython
           matplotlib
           pivy

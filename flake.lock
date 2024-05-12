@@ -3,11 +3,11 @@
     "freecad-realthunder": {
       "flake": false,
       "locked": {
-        "lastModified": 1712488274,
-        "narHash": "sha256-hlAkR4Ubvjr+MSyP1WewDLkQRFgEGBXkVeKAjI9lsE0=",
+        "lastModified": 1715422236,
+        "narHash": "sha256-O7+MlOXrIIi8JMdr4QtEnKmiHPx+7yfqB9Utha2J6U4=",
         "owner": "realthunder",
         "repo": "FreeCAD",
-        "rev": "973e4821bcd19a5a1af9ae3e1d2ed961aad0a8ab",
+        "rev": "0e9cf4aa7c7bac94a83edd07b4bd74a71a26446c",
         "type": "github"
       },
       "original": {
