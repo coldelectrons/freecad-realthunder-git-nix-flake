@@ -18,6 +18,9 @@
 , libf2c
 , libredwg
 , libspnav
+, awkward
+, blinker
+, qtpy
 , matplotlib
 , medfile
 , mpi
@@ -49,13 +52,13 @@
 , yaml-cpp
 }: stdenv.mkDerivation (finalAttrs: {
   pname = "freecad-realthunder";
-  version = "20240322stable";
+  version = "20240407stable";
 
   src = fetchFromGitHub {
     owner = "realthunder";
     repo = "FreeCAD";
     rev = finalAttrs.version;
-    hash = "sha256-MxcPgaJf4Ybg3JBWrvfSUkKb3cOimmJFeFhW1jYwdj4=";
+    hash = "sha256-hlAkR4Ubvjr+MSyP1WewDLkQRFgEGBXkVeKAjI9lsE0=";
   };
 
   nativeBuildInputs = [
@@ -81,6 +84,9 @@
     libGLU
     libXmu
     libf2c
+    awkward
+    blinker
+    qtpy
     matplotlib
     medfile
     mpi
