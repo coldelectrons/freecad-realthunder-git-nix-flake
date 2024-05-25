@@ -18,6 +18,7 @@
 , libf2c
 , libredwg
 , libspnav
+, pip
 , awkward
 , blinker
 , qtpy
@@ -84,6 +85,7 @@
     libGLU
     libXmu
     libf2c
+    pip
     awkward
     blinker
     qtpy
